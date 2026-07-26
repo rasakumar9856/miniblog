@@ -1,0 +1,82 @@
+.list, tr,td,th{
+    border: 1px solid black;
+}
+.nave{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 50px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+.adduser{
+  text-align: center;
+  display:grid;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #bbbdd7;
+  margin: 20px;
+}
+
+.addusers input,button{
+  padding: 10px;
+  gap: 10px;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+  
+}
+.adduser button{
+  background-color: blue;
+  color: white;
+}
+.adduser button:hover{
+  background-color: rgb(15, 15, 80);
+  color: rgb(245, 120, 120);
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
